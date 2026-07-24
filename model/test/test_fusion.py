@@ -47,7 +47,7 @@ from sklearn.metrics import (
 #  CONFIGURATION  (edit here if paths change)
 # ─────────────────────────────────────────────
 DATASET_DIR  = "/home/eecommu06/Documents/BT/ALLIDB2"   # root: cancer/ non cancer/
-MODEL_PATH   = "/home/eecommu06/Desktop/Bee/ALL/output/fusion_mobilenet_resnet/fold_5/best_model.pth"
+MODEL_PATH   = "/home/eecommu06/Desktop/Bee/ALL/output/fusion_mobilenet_resnet/fusion_mobilenet_resnet_best_model.pth"
 OUTPUT_DIR   = "./test/test_results/fusion_mobilenet_resnet"
 BATCH_SIZE   = 32
 NUM_WORKERS  = 4

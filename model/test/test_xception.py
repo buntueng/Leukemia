@@ -53,7 +53,7 @@ except ImportError:
 #  CONFIGURATION  (edit here if paths change)
 # ─────────────────────────────────────────────
 DATASET_DIR  = "/home/eecommu06/Documents/BT/ALLIDB2"   # root: cancer/ non cancer/
-MODEL_PATH   = "/home/eecommu06/Desktop/Bee/ALL/output/xception/fold_3/best_model.pth"
+MODEL_PATH   = "/home/eecommu06/Desktop/Bee/ALL/output/xception/xception_best_model.pth"
 OUTPUT_DIR   = "./test/test_results/xception"
 BATCH_SIZE   = 32
 NUM_WORKERS  = 4

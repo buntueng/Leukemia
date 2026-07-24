@@ -10,11 +10,13 @@ Outputs :
     all_folds_metrics.csv     <- per-fold + mean±std summary
     training_history_all.csv  <- all folds concatenated (for plotting)
     confusion_matrices.png    <- 2x3 grid of confusion matrices
+    efficientnetb3_best_model.pth <- overall best model from all folds
 """
 
 import os
 import random
 import time
+import shutil  # <-- Added to handle copying the best model
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -455,6 +457,10 @@ def main():
     confusion_mats    = []
     all_history_dfs   = []
 
+    # <-- ADDED: Track the overall best model across all folds -->
+    global_best_auc = -1.0
+    global_best_model_src = None
+
     # ── outer fold progress bar ───────────────────────────────
     fold_bar = tqdm(enumerate(skf.split(np.zeros(len(full_dataset)), all_labels)),
                     total=NUM_FOLDS, desc="Overall folds",
@@ -474,6 +480,11 @@ def main():
         row.update({k: round(v, 6) if isinstance(v, float) else v
                     for k, v in metrics.items()})
         fold_metrics_list.append(row)
+
+        # <-- ADDED: Check if this fold has the highest AUC and store its path -->
+        if metrics["auc"] > global_best_auc:
+            global_best_auc = metrics["auc"]
+            global_best_model_src = os.path.join(fold_dir, "best_model.pth")
 
         # update outer bar with running mean AUC
         run_auc = np.mean([r["auc"] for r in fold_metrics_list])
@@ -511,6 +522,13 @@ def main():
     class_names = list(LeukemiaDataset.CLASS_MAP.keys())
     cm_path     = os.path.join(OUTPUT_DIR, "confusion_matrices.png")
     plot_confusion_matrices(confusion_mats, class_names, cm_path)
+    
+    # ── save overall best model ───────────────────────────────
+    # <-- ADDED: copy the top performing checkpoint out into the root directory -->
+    if global_best_model_src and os.path.exists(global_best_model_src):
+        overall_best_path = os.path.join(OUTPUT_DIR, "efficientnetb3_best_model.pth")
+        shutil.copy2(global_best_model_src, overall_best_path)
+        print(f"[Saved] Overall best model (AUC: {global_best_auc:.4f}) → {overall_best_path}")
 
     # ── final summary ─────────────────────────────────────────
     print(f"\n{'='*64}")

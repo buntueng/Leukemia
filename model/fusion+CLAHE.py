@@ -3,11 +3,21 @@ Fusion (MobileNetV2 + ResNet50) — Leukemia Cell Classification
 Dataset : CNMC-2019
 Protocol: 5-Fold Stratified Cross-Validation
 Strategy: Pre-trained backbones + newly trained fusion head + CLAHE Preprocessing.
+Outputs :
+  OUTPUT_DIR/
+    fold_{k}/
+      best_model.pth          <- best val-AUC checkpoint per fold
+      training_history.csv    <- epoch-level loss/acc/auc per fold
+    all_folds_metrics.csv     <- per-fold + mean±std summary
+    training_history_all.csv  <- all folds concatenated (for plotting)
+    confusion_matrices.png    <- 2x3 grid of confusion matrices
+    fusion_mobilenet_resnet_clahe_best_model.pth <- overall best model from all folds
 """
 
 import os
 import random
 import time
+import shutil  # <-- Added to handle copying the best model
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -41,8 +51,8 @@ DATA_DIR   = '/home/eecommu06/Documents/BT/CNMC2019/image'
 OUTPUT_DIR = '/home/eecommu06/Desktop/Bee/ALL/output/fusion_mobilenet_resnet_clahe'
 
 # Paths to your previously trained individual models
-RESNET_WEIGHTS_PATH    = '/home/eecommu06/Desktop/Bee/ALL/output/resnet50/fold_1/best_model.pth'
-MOBILENET_WEIGHTS_PATH = '/home/eecommu06/Desktop/Bee/ALL/output/mobilenetv2/fold_5/best_model.pth'
+RESNET_WEIGHTS_PATH    = '/home/eecommu06/Desktop/Bee/ALL/output/resnet50/resnet50_best_model.pth'
+MOBILENET_WEIGHTS_PATH = '/home/eecommu06/Desktop/Bee/ALL/output/mobilenetv2/mobilenetv2_best_model.pth'
 
 NUM_FOLDS    = 5
 NUM_EPOCHS   = 50
@@ -544,6 +554,10 @@ def main():
     confusion_mats    = []
     all_history_dfs   = []
 
+    # <-- ADDED: Track the overall best model across all folds -->
+    global_best_auc = -1.0
+    global_best_model_src = None
+
     # outer fold progress bar
     fold_bar = tqdm(enumerate(skf.split(np.zeros(len(full_dataset)), all_labels)),
                     total=NUM_FOLDS, desc="Overall folds",
@@ -563,6 +577,11 @@ def main():
         row.update({k: round(v, 6) if isinstance(v, float) else v
                     for k, v in metrics.items()})
         fold_metrics_list.append(row)
+
+        # <-- ADDED: Check if this fold has the highest AUC and store its path -->
+        if metrics["auc"] > global_best_auc:
+            global_best_auc = metrics["auc"]
+            global_best_model_src = os.path.join(fold_dir, "best_model.pth")
 
         run_auc = np.mean([r["auc"] for r in fold_metrics_list])
         fold_bar.set_postfix(mean_auc=f"{run_auc:.4f}")
@@ -599,6 +618,13 @@ def main():
     class_names = list(LeukemiaDataset.CLASS_MAP.keys())
     cm_path     = os.path.join(OUTPUT_DIR, "confusion_matrices.png")
     plot_confusion_matrices(confusion_mats, class_names, cm_path)
+
+    # ── save overall best model ───────────────────────────────
+    # <-- ADDED: copy the top performing checkpoint out into the root directory -->
+    if global_best_model_src and os.path.exists(global_best_model_src):
+        overall_best_path = os.path.join(OUTPUT_DIR, "fusion_mobilenet_resnet_clahe_best_model.pth")
+        shutil.copy2(global_best_model_src, overall_best_path)
+        print(f"[Saved] Overall best model (AUC: {global_best_auc:.4f}) → {overall_best_path}")
 
     # ── final summary ─────────────────────────────────────────
     print(f"\n{'='*64}")
