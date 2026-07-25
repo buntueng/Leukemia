@@ -1,0 +1,261 @@
+Image Path,True Label,Predicted Label,Prob_cancer,Prob_non_cancer,Correct
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im001_1.tif,cancer,cancer,0.9991,0.0009,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im002_1.tif,cancer,cancer,0.9949,0.0051,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im003_1.tif,cancer,cancer,0.9781,0.0219,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im004_1.tif,cancer,cancer,0.5449,0.4551,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im005_1.tif,cancer,non cancer,0.3035,0.6965,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im006_1.tif,cancer,cancer,0.8447,0.1553,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im007_1.tif,cancer,cancer,0.9412,0.0588,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im008_1.tif,cancer,cancer,0.9749,0.0251,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im009_1.tif,cancer,cancer,0.8354,0.1646,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im010_1.tif,cancer,cancer,0.8511,0.1489,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im011_1.tif,cancer,cancer,0.9983,0.0017,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im012_1.tif,cancer,cancer,0.8924,0.1076,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im013_1.tif,cancer,cancer,0.9314,0.0686,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im014_1.tif,cancer,cancer,0.9816,0.0184,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im015_1.tif,cancer,cancer,0.9819,0.0181,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im016_1.tif,cancer,cancer,0.9998,0.0002,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im017_1.tif,cancer,cancer,0.9745,0.0255,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im018_1.tif,cancer,cancer,0.9821,0.0179,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im019_1.tif,cancer,cancer,0.7087,0.2913,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im020_1.tif,cancer,cancer,0.9830,0.0170,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im021_1.tif,cancer,cancer,0.9912,0.0088,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im022_1.tif,cancer,cancer,0.9514,0.0486,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im023_1.tif,cancer,cancer,0.9917,0.0083,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im024_1.tif,cancer,non cancer,0.2769,0.7231,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im025_1.tif,cancer,cancer,0.9713,0.0287,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im026_1.tif,cancer,cancer,0.9877,0.0123,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im027_1.tif,cancer,cancer,0.9721,0.0279,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im028_1.tif,cancer,cancer,0.9924,0.0076,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im029_1.tif,cancer,cancer,0.9875,0.0125,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im030_1.tif,cancer,cancer,0.9752,0.0248,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im031_1.tif,cancer,cancer,0.9946,0.0054,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im032_1.tif,cancer,cancer,0.9524,0.0476,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im033_1.tif,cancer,cancer,0.9866,0.0134,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im034_1.tif,cancer,cancer,0.9930,0.0070,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im035_1.tif,cancer,cancer,0.7084,0.2916,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im036_1.tif,cancer,cancer,0.9981,0.0019,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im037_1.tif,cancer,cancer,0.7013,0.2987,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im038_1.tif,cancer,cancer,0.9740,0.0260,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im039_1.tif,cancer,cancer,0.6702,0.3298,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im040_1.tif,cancer,non cancer,0.3844,0.6156,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im041_1.tif,cancer,non cancer,0.3765,0.6235,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im042_1.tif,cancer,cancer,0.7123,0.2877,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im043_1.tif,cancer,cancer,0.9532,0.0468,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im044_1.tif,cancer,cancer,0.9954,0.0046,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im045_1.tif,cancer,cancer,0.9486,0.0514,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im046_1.tif,cancer,cancer,0.5759,0.4241,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im047_1.tif,cancer,cancer,0.8065,0.1935,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im048_1.tif,cancer,cancer,0.6558,0.3442,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im049_1.tif,cancer,non cancer,0.4593,0.5407,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im050_1.tif,cancer,cancer,0.8899,0.1101,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im051_1.tif,cancer,cancer,0.9622,0.0378,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im052_1.tif,cancer,cancer,0.9909,0.0091,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im053_1.tif,cancer,cancer,0.9794,0.0206,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im054_1.tif,cancer,cancer,0.9634,0.0366,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im055_1.tif,cancer,cancer,0.7455,0.2545,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im056_1.tif,cancer,cancer,0.8780,0.1220,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im057_1.tif,cancer,cancer,0.8407,0.1593,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im058_1.tif,cancer,non cancer,0.1441,0.8559,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im059_1.tif,cancer,cancer,0.9734,0.0266,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im060_1.tif,cancer,cancer,0.7769,0.2231,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im061_1.tif,cancer,cancer,0.9050,0.0950,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im062_1.tif,cancer,cancer,0.9101,0.0899,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im063_1.tif,cancer,cancer,0.9714,0.0286,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im064_1.tif,cancer,non cancer,0.3781,0.6219,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im065_1.tif,cancer,cancer,0.5594,0.4406,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im066_1.tif,cancer,cancer,0.5174,0.4826,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im067_1.tif,cancer,cancer,0.8077,0.1923,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im068_1.tif,cancer,cancer,0.6130,0.3870,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im069_1.tif,cancer,cancer,0.5206,0.4794,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im070_1.tif,cancer,non cancer,0.4494,0.5506,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im071_1.tif,cancer,non cancer,0.4726,0.5274,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im072_1.tif,cancer,non cancer,0.4380,0.5620,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im073_1.tif,cancer,cancer,0.6879,0.3121,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im074_1.tif,cancer,non cancer,0.0189,0.9811,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im075_1.tif,cancer,non cancer,0.1712,0.8288,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im076_1.tif,cancer,cancer,0.6926,0.3074,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im077_1.tif,cancer,cancer,0.7741,0.2259,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im078_1.tif,cancer,non cancer,0.1874,0.8126,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im079_1.tif,cancer,non cancer,0.2856,0.7144,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im080_1.tif,cancer,non cancer,0.2597,0.7403,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im081_1.tif,cancer,cancer,0.9867,0.0133,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im082_1.tif,cancer,non cancer,0.3579,0.6421,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im083_1.tif,cancer,non cancer,0.4867,0.5133,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im084_1.tif,cancer,non cancer,0.3223,0.6777,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im085_1.tif,cancer,non cancer,0.2662,0.7338,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im086_1.tif,cancer,cancer,0.5978,0.4022,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im087_1.tif,cancer,non cancer,0.0815,0.9185,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im088_1.tif,cancer,cancer,0.7373,0.2627,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im089_1.tif,cancer,non cancer,0.4136,0.5864,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im090_1.tif,cancer,cancer,0.7349,0.2651,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im091_1.tif,cancer,cancer,0.7704,0.2296,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im092_1.tif,cancer,cancer,0.9908,0.0092,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im093_1.tif,cancer,cancer,0.9549,0.0451,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im094_1.tif,cancer,cancer,0.9919,0.0081,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im095_1.tif,cancer,non cancer,0.1645,0.8355,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im096_1.tif,cancer,non cancer,0.0637,0.9363,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im097_1.tif,cancer,non cancer,0.2493,0.7507,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im098_1.tif,cancer,non cancer,0.3961,0.6039,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im099_1.tif,cancer,cancer,0.6124,0.3876,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im100_1.tif,cancer,non cancer,0.3207,0.6793,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im101_1.tif,cancer,non cancer,0.1238,0.8762,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im102_1.tif,cancer,cancer,0.5811,0.4189,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im103_1.tif,cancer,cancer,0.5195,0.4805,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im104_1.tif,cancer,non cancer,0.2821,0.7179,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im105_1.tif,cancer,cancer,0.7198,0.2802,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im106_1.tif,cancer,cancer,0.9722,0.0278,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im107_1.tif,cancer,non cancer,0.0722,0.9278,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im108_1.tif,cancer,non cancer,0.1098,0.8902,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im109_1.tif,cancer,cancer,0.9867,0.0133,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im110_1.tif,cancer,cancer,0.9618,0.0382,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im111_1.tif,cancer,non cancer,0.0271,0.9729,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im112_1.tif,cancer,non cancer,0.0867,0.9133,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im113_1.tif,cancer,non cancer,0.0247,0.9753,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im114_1.tif,cancer,cancer,0.6073,0.3927,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im115_1.tif,cancer,cancer,0.7473,0.2527,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im116_1.tif,cancer,non cancer,0.3988,0.6012,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im117_1.tif,cancer,cancer,0.6916,0.3084,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im118_1.tif,cancer,cancer,0.9782,0.0218,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im119_1.tif,cancer,non cancer,0.4053,0.5947,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im120_1.tif,cancer,non cancer,0.1134,0.8866,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im121_1.tif,cancer,cancer,0.5487,0.4513,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im122_1.tif,cancer,cancer,0.6294,0.3706,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im123_1.tif,cancer,cancer,0.6569,0.3431,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im124_1.tif,cancer,cancer,0.8535,0.1465,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im125_1.tif,cancer,cancer,0.8471,0.1529,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im126_1.tif,cancer,cancer,0.6106,0.3894,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im127_1.tif,cancer,non cancer,0.0834,0.9166,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im128_1.tif,cancer,non cancer,0.4410,0.5590,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im129_1.tif,cancer,non cancer,0.4242,0.5758,No
+/home/eecommu06/Documents/BT/ALLIDB2/cancer/Im130_1.tif,cancer,non cancer,0.0268,0.9732,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im131_0.tif,non cancer,non cancer,0.4418,0.5582,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im132_0.tif,non cancer,non cancer,0.3456,0.6544,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im133_0.tif,non cancer,non cancer,0.2544,0.7456,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im134_0.tif,non cancer,cancer,0.6048,0.3952,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im135_0.tif,non cancer,non cancer,0.2987,0.7013,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im136_0.tif,non cancer,non cancer,0.2839,0.7161,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im137_0.tif,non cancer,cancer,0.5573,0.4427,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im138_0.tif,non cancer,non cancer,0.4245,0.5755,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im139_0.tif,non cancer,cancer,0.9168,0.0832,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im140_0.tif,non cancer,non cancer,0.1609,0.8391,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im141_0.tif,non cancer,non cancer,0.4639,0.5361,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im142_0.tif,non cancer,cancer,0.9571,0.0429,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im143_0.tif,non cancer,cancer,0.6323,0.3677,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im144_0.tif,non cancer,cancer,0.9401,0.0599,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im145_0.tif,non cancer,non cancer,0.3209,0.6791,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im146_0.tif,non cancer,non cancer,0.0327,0.9673,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im147_0.tif,non cancer,non cancer,0.4380,0.5620,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im148_0.tif,non cancer,non cancer,0.1315,0.8685,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im149_0.tif,non cancer,non cancer,0.1932,0.8068,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im150_0.tif,non cancer,non cancer,0.0424,0.9576,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im151_0.tif,non cancer,non cancer,0.1869,0.8131,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im152_0.tif,non cancer,cancer,0.7955,0.2045,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im153_0.tif,non cancer,non cancer,0.3526,0.6474,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im154_0.tif,non cancer,cancer,0.8362,0.1638,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im155_0.tif,non cancer,cancer,0.8115,0.1885,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im156_0.tif,non cancer,non cancer,0.1469,0.8531,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im157_0.tif,non cancer,cancer,0.6154,0.3846,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im158_0.tif,non cancer,non cancer,0.2031,0.7969,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im159_0.tif,non cancer,non cancer,0.4292,0.5708,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im160_0.tif,non cancer,non cancer,0.2669,0.7331,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im161_0.tif,non cancer,cancer,0.7091,0.2909,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im162_0.tif,non cancer,non cancer,0.1457,0.8543,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im163_0.tif,non cancer,cancer,0.5898,0.4102,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im164_0.tif,non cancer,non cancer,0.3894,0.6106,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im165_0.tif,non cancer,cancer,0.5181,0.4819,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im166_0.tif,non cancer,cancer,0.9426,0.0574,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im167_0.tif,non cancer,non cancer,0.1461,0.8539,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im168_0.tif,non cancer,non cancer,0.0444,0.9556,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im169_0.tif,non cancer,non cancer,0.3108,0.6892,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im170_0.tif,non cancer,non cancer,0.3006,0.6994,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im171_0.tif,non cancer,non cancer,0.1286,0.8714,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im172_0.tif,non cancer,non cancer,0.0586,0.9414,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im173_0.tif,non cancer,cancer,0.9869,0.0131,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im174_0.tif,non cancer,non cancer,0.3063,0.6937,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im175_0.tif,non cancer,cancer,0.9966,0.0034,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im176_0.tif,non cancer,cancer,0.6678,0.3322,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im177_0.tif,non cancer,non cancer,0.0599,0.9401,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im178_0.tif,non cancer,non cancer,0.2841,0.7159,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im179_0.tif,non cancer,non cancer,0.0579,0.9421,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im180_0.tif,non cancer,non cancer,0.2233,0.7767,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im181_0.tif,non cancer,non cancer,0.0299,0.9701,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im182_0.tif,non cancer,non cancer,0.0325,0.9675,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im183_0.tif,non cancer,cancer,0.5445,0.4555,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im184_0.tif,non cancer,non cancer,0.0292,0.9708,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im185_0.tif,non cancer,cancer,0.8569,0.1431,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im186_0.tif,non cancer,cancer,0.5096,0.4904,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im187_0.tif,non cancer,cancer,0.7794,0.2206,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im188_0.tif,non cancer,non cancer,0.0421,0.9579,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im189_0.tif,non cancer,cancer,0.8507,0.1493,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im190_0.tif,non cancer,non cancer,0.1300,0.8700,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im191_0.tif,non cancer,non cancer,0.3743,0.6257,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im192_0.tif,non cancer,cancer,0.9294,0.0706,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im193_0.tif,non cancer,cancer,0.8173,0.1827,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im194_0.tif,non cancer,cancer,0.6789,0.3211,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im195_0.tif,non cancer,non cancer,0.0827,0.9173,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im196_0.tif,non cancer,cancer,0.9472,0.0528,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im197_0.tif,non cancer,cancer,0.5462,0.4538,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im198_0.tif,non cancer,non cancer,0.0670,0.9330,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im199_0.tif,non cancer,non cancer,0.0295,0.9705,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im200_0.tif,non cancer,non cancer,0.0199,0.9801,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im201_0.tif,non cancer,non cancer,0.3997,0.6003,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im202_0.tif,non cancer,non cancer,0.0837,0.9163,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im203_0.tif,non cancer,cancer,0.7564,0.2436,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im204_0.tif,non cancer,non cancer,0.4281,0.5719,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im205_0.tif,non cancer,non cancer,0.0107,0.9893,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im206_0.tif,non cancer,non cancer,0.0107,0.9893,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im207_0.tif,non cancer,non cancer,0.0838,0.9162,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im208_0.tif,non cancer,non cancer,0.1028,0.8972,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im209_0.tif,non cancer,non cancer,0.0921,0.9079,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im210_0.tif,non cancer,non cancer,0.4252,0.5748,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im211_0.tif,non cancer,non cancer,0.1173,0.8827,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im212_0.tif,non cancer,non cancer,0.4131,0.5869,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im213_0.tif,non cancer,cancer,0.6818,0.3182,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im214_0.tif,non cancer,non cancer,0.3882,0.6118,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im215_0.tif,non cancer,non cancer,0.2661,0.7339,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im216_0.tif,non cancer,cancer,0.5253,0.4747,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im217_0.tif,non cancer,cancer,0.6288,0.3712,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im218_0.tif,non cancer,cancer,0.8227,0.1773,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im219_0.tif,non cancer,cancer,0.5596,0.4404,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im220_0.tif,non cancer,non cancer,0.0855,0.9145,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im221_0.tif,non cancer,non cancer,0.4707,0.5293,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im222_0.tif,non cancer,cancer,0.5797,0.4203,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im223_0.tif,non cancer,cancer,0.8503,0.1497,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im224_0.tif,non cancer,non cancer,0.4618,0.5382,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im225_0.tif,non cancer,cancer,0.7614,0.2386,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im226_0.tif,non cancer,non cancer,0.1707,0.8293,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im227_0.tif,non cancer,non cancer,0.0095,0.9905,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im228_0.tif,non cancer,cancer,0.6311,0.3689,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im229_0.tif,non cancer,non cancer,0.0085,0.9915,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im230_0.tif,non cancer,non cancer,0.0242,0.9758,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im231_0.tif,non cancer,non cancer,0.1192,0.8808,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im232_0.tif,non cancer,non cancer,0.2598,0.7402,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im233_0.tif,non cancer,non cancer,0.0738,0.9262,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im234_0.tif,non cancer,non cancer,0.3072,0.6928,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im235_0.tif,non cancer,non cancer,0.4232,0.5768,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im236_0.tif,non cancer,non cancer,0.0140,0.9860,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im237_0.tif,non cancer,non cancer,0.3006,0.6994,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im238_0.tif,non cancer,non cancer,0.2924,0.7076,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im239_0.tif,non cancer,cancer,0.6771,0.3229,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im240_0.tif,non cancer,cancer,0.9152,0.0848,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im241_0.tif,non cancer,non cancer,0.2353,0.7647,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im242_0.tif,non cancer,non cancer,0.3372,0.6628,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im243_0.tif,non cancer,non cancer,0.3244,0.6756,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im244_0.tif,non cancer,non cancer,0.0672,0.9328,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im245_0.tif,non cancer,non cancer,0.0271,0.9729,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im246_0.tif,non cancer,cancer,0.8690,0.1310,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im247_0.tif,non cancer,non cancer,0.0463,0.9537,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im248_0.tif,non cancer,non cancer,0.2393,0.7607,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im249_0.tif,non cancer,non cancer,0.0264,0.9736,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im250_0.tif,non cancer,non cancer,0.4673,0.5327,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im251_0.tif,non cancer,non cancer,0.1249,0.8751,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im252_0.tif,non cancer,non cancer,0.3751,0.6249,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im253_0.tif,non cancer,non cancer,0.0660,0.9340,Yes
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im254_0.tif,non cancer,cancer,0.8160,0.1840,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im255_0.tif,non cancer,cancer,0.8271,0.1729,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im256_0.tif,non cancer,cancer,0.6940,0.3060,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im257_0.tif,non cancer,cancer,0.8513,0.1487,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im258_0.tif,non cancer,cancer,0.6240,0.3760,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im259_0.tif,non cancer,cancer,0.8558,0.1442,No
+/home/eecommu06/Documents/BT/ALLIDB2/non cancer/Im260_0.tif,non cancer,non cancer,0.0055,0.9945,Yes
